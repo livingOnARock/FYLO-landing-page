@@ -1,0 +1,272 @@
+body{
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+    box-sizing: border-box;
+
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #1c2330;
+    display: inline-flex;
+}
+nav{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo{
+    margin: auto 0 auto 20px;
+    font-size: xx-large;
+    display: inline-flex;
+
+}
+i {
+    margin-right: 10px;
+}
+nav ul{
+    display: inline-flex;
+    padding-top: 15px;
+}
+nav li{
+    margin: auto 15px;
+}
+li a {
+    color: white;
+    text-decoration: none;
+
+}
+.intro{
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+}
+.introImg{
+    max-width: 100%;
+    display: flex; 
+    flex-direction: column;
+}
+.introImg img{
+    max-width: 100%;
+    margin: auto;
+}
+.intro h2 {
+
+}
+.btn {
+    width: 250px;
+    height: 50px;
+    background-color: #43b1d2;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+.services{
+    margin: 10rem auto;
+    text-align: center;
+    width: 75%;
+}
+.service{
+    margin: 7rem 0;
+}
+.productive{
+    width: 75%;
+    margin: 50px auto;
+}
+.productiveWrapper{
+    
+}
+.serviceImg img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.productive button{ 
+    border: none;
+    color: #43b1d2;
+    background: transparent;
+    border-bottom: solid #43b1d2 2px;
+    padding: 5px 0;
+}
+.reviews{
+    width: 80%;
+    margin: 0 auto 10rem auto;
+    padding-bottom: 15rem;
+
+}
+.review{
+    background-color: hsl(219, 30%, 18%);
+    padding: 25px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.profile img{
+    border-radius: 50%;
+    width: 45px;
+    height: 45%;
+    margin-right: 20px;
+}
+.id{
+    display: block;
+    font-size: x-small;
+}
+.id h3{
+    margin-bottom: 0;
+}
+footer{
+    background-color: hsl(216, 53%, 9%);
+    position: relative;
+    padding-top: 15rem;
+    margin-bottom: 0;
+
+}
+.signup{
+    background-color: hsl(217, 28%, 15%);
+    width: 80%;
+    padding: 40px 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+    position: absolute;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    top: -13rem;
+}
+#signupInput{
+    width: 210px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+.footerName{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: xx-large;
+    align-items: center;
+}
+#logo{
+margin: 0 10px 0 40px;
+}
+.location{
+    display: inline-flex;
+}
+.phone{
+    display: inline-flex;
+}
+.email{
+    display: inline-flex;
+}
+footer img {
+    width: 15px;
+    height: 25px;
+    padding: 20px 0 0 20px;
+}
+.location p {
+    width: 90%;
+    padding: 0 20px;
+}
+footer h2 {
+    margin-left: 20px;
+}
+ul{
+    margin-bottom: 40px;
+}
+li{ 
+    list-style-type: none;
+    line-height: 200%;
+}
+@media only screen and (min-width: 1280px) {
+    nav ul{
+        font-size: x-large;
+        margin: auto 50px auto 0; 
+    }
+    .logo{
+        font-size: 50px;
+        margin-left: 30px;
+    }
+    .intro{
+        width: 50%;
+    }
+    .intro h2{
+        font-size: 40px;
+    }
+    .intro p {
+        font-size: x-large
+    }
+    .intro button{
+        width: 300px;
+        height: 60px;
+        font-size: large;
+    }
+    .services{
+        width: 85%;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .service {
+        width: 40%;
+        margin: 2rem 0;
+    }
+    .service p {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .productiveWrapper{
+        display: inline-flex;
+    }
+    .serviceImg{
+        width: 60%;
+        padding: 20px;
+        margin: auto;
+    }
+    .productiveTxt{
+        width: 40%;
+        margin: auto;
+        padding-left: 20px;
+    }
+    .reviews{
+        display: flex;
+        justify-content: space-between;
+    }
+    .review{
+        width: 28%;
+    }
+    .signup{
+        width: 60%;
+        top: -9rem;
+    }
+    #signupInput{
+        width: 400px;
+    }
+    .location{
+        width: 30%;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .footerWrapper{
+        display: flex;
+        flex-direction: row;
+    }
+    .ulDiv{
+        width: 20%;
+        display: inline-flex;
+    }
+}
